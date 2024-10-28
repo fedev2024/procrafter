@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Accordions from './components/Accordions';
+import Carousel from './components/Carousel';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div>
       <BrowserRouter>
       <Navbar />
+      <Carousel />
       <Accordions />
       <Footer />
       </BrowserRouter>

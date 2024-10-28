@@ -2,3 +2,9 @@
     display: none;
     scrollbar-width: none;
 }
+.lists{
+    margin: 20px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+}

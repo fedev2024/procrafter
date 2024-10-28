@@ -1,0 +1,48 @@
+.contain{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.left{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    height: 100%;
+   
+}
+.resume{
+    width: 70%;
+    height: 100%;
+}
+.right{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+   
+}
+.head{
+    position: relative;
+}
+
+.head::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: grey; /* Color of the underline */
+    transition: width 0.3s ease; /* Animation timing */
+  }
+  
+  .head:hover::after {
+    width: 50%;
+  }
+  
+  .desc{
+    width: 50%;
+  }
