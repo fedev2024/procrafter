@@ -3,7 +3,7 @@ import Resume from "../assets/res1.png"
 import "./Carousel.css"
 function Carousel() {
   return (
-    <div className='contain'>
+    <div className='contain' data-aos="fade-up">
         <div className='left'>
             Card Effect 
             <img src={Resume} className='resume' alt="" />

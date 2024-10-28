@@ -3,7 +3,7 @@ import "./Accordions.css";
 
 function Accordions() {
   return (
-    <div className="lists">
+    <div className="lists" data-aos="fade-up">
       <div className="accordion" id="accordionExample">
         <h2><b>Frequently Asked Questions</b></h2>
         
