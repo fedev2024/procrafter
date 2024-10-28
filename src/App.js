@@ -8,6 +8,7 @@ import Carousel from './components/Carousel';
 import ResumeDisplay from './components/ResumeDisplay';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Cards from './components/Cards';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Carousel />
       <ResumeDisplay />
+      <Cards />
       <Accordions />
       <Footer />
       </BrowserRouter>

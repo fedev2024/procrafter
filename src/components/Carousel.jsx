@@ -11,7 +11,11 @@ function Carousel() {
         <div className='right'>
            <div className='head'>
              <h1>Introducing</h1>
-            <h1>ProCraftr's New AI-</h1>
+            <h1>
+                <span style={{color:'#9d4ccf'}}>
+                    ProCraftr's 
+                    </span>
+                      -New AI-</h1>
             <h1>Powered Resume</h1>
             <h1>Builder- Now</h1>
             <h1>Available</h1>

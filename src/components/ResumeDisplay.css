@@ -8,3 +8,19 @@ align-items: center;
  .headi{
     font-weight: 700;
  }
+ .res {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    
+ }
+ .res img{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 25%;
+    
+ }
+ 
