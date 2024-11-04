@@ -5,7 +5,7 @@ import prof from "../assets/profile_pic.jpg"
 
 function Cards() {
   return (
-    <div className='card-contain'>
+    <div className='card-contain' data-aos="fade-up">
         <h1>
             Browse our <span style={{color:'#9d4ccf'}}>
                 up-to-date{" "}
@@ -13,7 +13,9 @@ function Cards() {
                  resume guides
             </h1>
             <div className="desc">Explore our recently updated guides to help you refine and modernize your resume. Discover valuable tips and strategies for today’s job market.</div>
-        <div className='card'>
+       <div className="card-items">
+       
+       <div className='card'>
             <img className='card-img' src={img} alt="" />
             <div>
                 <div><b>Airline Customer Service Agent Cover Letter</b></div>
@@ -54,6 +56,7 @@ function Cards() {
             </div>
         </div>
     </div>
+    </div> 
   )
 }
 

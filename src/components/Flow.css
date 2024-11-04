@@ -1,0 +1,27 @@
+.flow-container {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.flow-section{
+    margin: 10px;
+    padding: 10px;
+}
+.section2arrow1 {
+  transform: scaleY(-1) rotate(240deg);
+  position: relative;
+  top: 30px;
+  right: -40px;
+}
+.section2arrow2 {
+  position: relative;
+  right: 15px;
+  top: -25px;
+  transform: rotate(150deg);
+}
+.section2img {
+  position: relative;
+  right: -30px;
+}

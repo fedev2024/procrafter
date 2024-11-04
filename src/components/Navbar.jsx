@@ -32,15 +32,13 @@ function Navbar() {
             <li>
               <Link to="/resources">Resources</Link>
             </li>
-            <li>
+            <li style={{color:'#9d4ccf'}}>
               <Link to="/aboutUs">About us</Link>
             </li>
             <li style={{color:'#9d4ccf'}}>
               <Link to="/blog">Blog</Link>
             </li>
-            <li style={{color:'#9d4ccf'}}>
-              <Link to="/admin">Admin</Link>
-            </li>
+            
           </ul>
           <li>
            
